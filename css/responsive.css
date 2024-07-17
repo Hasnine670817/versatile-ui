@@ -1,3 +1,83 @@
+
+
+
+/*
+==================
+For - leptop
+====================
+*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+
+
+
+}
+
+
+/*
+==================
+For - Ipad/Tablet
+====================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    /*
+    --------------
+    header-area
+    --------------
+    */
+
+    .header-nav ul > li > a {
+        font-size: 15px;
+    }
+
+
+}
+
+
+/*
+==================
+For - Mobile
+====================
+*/
+@media screen and (max-width: 767px) {
+
+    /*
+    --------------
+    header-area
+    --------------
+    */
+
+    .header-area {
+        padding: 50px 0;
+    }
+
+    .d-sm-none {
+        display: none;
+    }
+
+    .d-md-none {
+        display: block;
+    }
+
+
+}
+
+
+@media screen and (max-width: 575px) {
+
+    
+
+
+}
+
+
+
+
+
+
+
 /* ---For - Fixed Container Width --- */
 
 @media (min-width: 576px) {
