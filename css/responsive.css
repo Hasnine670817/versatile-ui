@@ -276,11 +276,13 @@ For - Mobile
         padding: 100px 0 60px;
     }
 
-    .habits-head p {
+    .habits-head p,
+    .team-heading small {
         padding: 0 10px;
     }
 
-    .habits-head p br {
+    .habits-head p br,
+    .team-heading small br {
         display: none;
     }
 
@@ -303,7 +305,7 @@ For - Mobile
     */
 
     .run-mile-area {
-        padding: 0 0 100px;
+        padding: 0;
     }
 
     .run-mile-box {
@@ -329,6 +331,27 @@ For - Mobile
         border-radius: 18px;
     }
 
+
+
+    /* 
+    ----------------
+    our-team-area
+    ----------------
+    */
+
+    .our-team-area {
+        padding: 72px 0;
+    }
+
+    .team-box {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 54px 0 0;
+    }
+
+    .inr-team-div h4 {
+        font-size: 18px;
+    }
+
     
 
     
@@ -339,8 +362,8 @@ For - Mobile
 @media screen and (min-width: 744px) and (max-width: 767px) {
 
     
-    .run-box-item small br.min-744-block {
-        display: block;
+    .min-744-block {
+        display: block !important;
         line-height: 0.1;
     }
 
@@ -425,7 +448,7 @@ For - Mobile
     */
 
     .run-mile-area {
-        padding: 0 0 100px;
+        padding: 0;
     }
 
     .run-mile-box {
@@ -443,6 +466,23 @@ For - Mobile
     .run-box-item img {
         margin: 30px 0 0;
         height: auto;
+    }
+
+
+
+    /* 
+    ----------------
+    our-team-area
+    ----------------
+    */
+
+    .our-team-area {
+        padding: 66px 0;
+    }
+
+    .team-box {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 36px 0 0;
     }
 
     
