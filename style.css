@@ -626,3 +626,63 @@ our-team-area
     font-weight: 900;
     line-height: 120%;
 }
+
+
+
+
+
+/* 
+------------------
+footer-area
+------------------
+*/
+
+.footer-area {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 65px 0 0;
+}
+
+.footer-grid {
+    padding: 0 0 55px;
+    display: grid;
+    grid-template-columns: 1fr 0.6fr 0.4fr;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.ftr-content h1 {
+    color: var(--bg-orange);
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 120%;
+    font-style: italic;
+    margin: 0 0 20px;
+}
+
+.ftr-links h3 {
+    color: var(--text-white);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    margin: 0 0 38px;
+}
+
+.ftr-links ul > li > a {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+    margin: 0 0 20px;
+}
+
+.ftr-links ul > li > a:hover {
+    color: var(--bg-orange);
+}
+
+.copyright-text {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    padding: 35px 0;
+}

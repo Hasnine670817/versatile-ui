@@ -421,6 +421,39 @@ For - Mobile
         font-size: 18px;
     }
 
+
+
+    /* 
+    ------------------
+    footer-area
+    ------------------
+    */
+
+    .footer-area {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 65px 0 0;
+    }
+
+    .footer-grid {
+        grid-template-columns: 0.5fr 0.5fr;
+    }
+
+    .ftr-grid1 {
+        grid-column: 1/span 3;
+    }
+
+    .ftr-content small {
+        margin: 0 0 100px;
+    }
+
+    .ftr-content small br {
+        display: none;
+    }
+
+    .ftr-links ul > li > a {
+        margin: 0 0 20px !important;
+    }
+
     
 
     
@@ -435,6 +468,10 @@ For - Mobile
         display: block !important;
         line-height: 0.1;
     }
+
+
+    
+
 
 
 }
@@ -597,6 +634,31 @@ For - Mobile
         grid-template-columns: repeat(1, 1fr);
         margin: 36px 0 0;
     }
+
+
+
+    /* 
+    ------------------
+    footer-area
+    ------------------
+    */
+
+    .footer-area {
+        padding: 44px 0 0;
+    }
+
+    .footer-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .ftr-grid1 {
+        grid-column: initial;
+    }
+
+    .ftr-content small {
+        margin: 0 0 30px;
+    }
+
 
     
 
