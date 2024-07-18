@@ -384,6 +384,85 @@ run-mile-area
 }
 
 
+
+/* 
+---------------------
+demo-area
+---------------------
+*/
+
+.demo-area {
+    padding: 0 0 100px;
+}
+
+.demo-heading {
+    margin: 0 0 40px;
+}
+
+.demo-heading span {
+    color: var(--bg-orange);
+}
+
+.demo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.demo-grid-item {
+    background-color: #222222;
+    border-radius: 10px;
+}
+
+.inr-demo-item {
+    position: relative;
+    transition: 0.3s all ease-in-out;
+}
+
+.inr-demo-item:hover .pson-div {
+    height: 100%;
+    transition: 0.3s all ease-in-out;
+}
+
+.demo-grid-item img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    padding: 55px 0 0;
+}
+
+.pson-div {
+    position: absolute;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.4);
+    padding: 20px 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s all ease-in-out;
+    left: 0;
+    height: 55px;
+    border-radius: 10px 10px 0 0;
+}
+
+.pson-div h3 {
+    color: var(--bg-orange);
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+}
+
+.demo-grid-item small {
+    padding: 15px 20px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+
+
+
 /* 
 ---------------------
 bmi-calculator-area

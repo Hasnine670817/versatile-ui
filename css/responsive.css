@@ -150,6 +150,18 @@ For - Ipad/Tablet
 
 
 
+    /* 
+    ---------------------
+    demo-area
+    ---------------------
+    */
+
+    .demo-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+
     
 
 
@@ -165,7 +177,7 @@ For - Mobile
 
 
     h2 {
-        font-size: 32px;
+        font-size: 31px;
     }
 
     p {
@@ -345,6 +357,27 @@ For - Mobile
         object-fit: cover;
         border-radius: 18px;
     }
+    
+
+
+    /* 
+    ---------------------
+    demo-area
+    ---------------------
+    */
+
+    .demo-area {
+        padding: 40px 0 30px;
+    }
+
+    .demo-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .demo-grid-item small {
+        font-size: 11px;
+        line-height: 16px;
+    }
 
 
 
@@ -505,6 +538,23 @@ For - Mobile
     .run-box-item img {
         margin: 30px 0 0;
         height: auto;
+    }
+
+
+
+    /* 
+    ---------------------
+    demo-area
+    ---------------------
+    */
+
+    .demo-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .demo-grid-item {
+        max-width: 340px;
+        margin: 0 auto;
     }
 
 
