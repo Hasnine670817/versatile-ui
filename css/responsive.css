@@ -1,8 +1,23 @@
 
+/*
+======================
+For - leptop+Dextop
+======================
+*/
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+
+    .text-card {
+        right: -21px;
+        top: 100px;
+    }
+
+
+}
 
 
 /*
-==================
+====================
 For - leptop
 ====================
 */
@@ -333,6 +348,27 @@ For - Mobile
 
 
 
+
+    /* 
+    ---------------------
+    bmi-calculator-area
+    ---------------------
+    */
+
+    .bmi-heading {
+        margin: 25px 0 32px;
+    }
+
+    .bmi-chart table {
+        margin: 23px 0 42px;
+    }
+
+    .bmi-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
     /* 
     ----------------
     our-team-area
@@ -441,6 +477,9 @@ For - Mobile
 
 
 
+
+
+
     /* 
     ----------------
     run-mile-area
@@ -466,6 +505,30 @@ For - Mobile
     .run-box-item img {
         margin: 30px 0 0;
         height: auto;
+    }
+
+
+
+    /* 
+    ---------------------
+    bmi-calculator-area
+    ---------------------
+    */
+
+    .bmi-chart h3 {
+        font-size: 16px;
+    }
+
+    .bmi-chart table {
+        margin: 23px 0 42px;
+    }
+
+    .bmi-form select {
+        background-position: 90% center;
+    }
+
+    .design-select {
+        background-position: 95% center !important;
     }
 
 
