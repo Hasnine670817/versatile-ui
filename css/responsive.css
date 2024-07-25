@@ -5,7 +5,7 @@ For - leptop+Dextop
 ======================
 */
 
-@media screen and (min-width: 1200px) and (max-width: 1399px) {
+@media screen and (min-width: 1200px) and (max-width: 1250px) {
 
     .text-card {
         right: -21px;
@@ -29,6 +29,10 @@ For - leptop
     banner-area
     --------------
     */
+
+    .banner-content h2 {
+        font-size: 64px;
+    }
 
     .text-card {
         right: -21px;
@@ -162,6 +166,26 @@ For - Ipad/Tablet
 
 
 
+    /* 
+    ------------------
+    footer-area
+    ------------------
+    */
+
+    .footer-grid {
+        grid-template-columns: 0.5fr 0.5fr;
+    }
+
+    .ftr-grid1 {
+        grid-column: 1/span 3;
+    }
+
+    .ftr-content small {
+        margin: 0 0 60px;
+    }
+
+
+
     
 
 
@@ -237,7 +261,11 @@ For - Mobile
 
     .banner-content p {
         font-size: 14px;
-        margin: ;
+        padding: 0 31% 0 0;
+    }
+
+    .banner-content p br {
+        display: none;
     }
 
     .banner-img {
@@ -374,6 +402,10 @@ For - Mobile
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .demo-heading small br {
+        display: none;
+    }
+
     .demo-grid-item small {
         font-size: 11px;
         line-height: 16px;
@@ -418,7 +450,7 @@ For - Mobile
     }
 
     .inr-team-div h4 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
 
@@ -511,11 +543,11 @@ For - Mobile
     }
 
     .banner-content h2 {
-        font-size: 36px;
+        font-size: 10vw;
     }
 
     .banner-content h2 span {
-        font-size: 61px;
+        font-size: 17vw;
     }
 
     .join__btn {
@@ -632,7 +664,8 @@ For - Mobile
 
     .team-box {
         grid-template-columns: repeat(1, 1fr);
-        margin: 36px 0 0;
+        max-width: 326px;
+        margin: 36px auto 0;
     }
 
 
